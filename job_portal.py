@@ -23,7 +23,6 @@ def add_job():
         "title": title,
         "company": company
     }
-
     jobs.append(job)
     save_jobs(jobs)
     print("Job added successfully!\n")
