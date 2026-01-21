@@ -2,12 +2,15 @@
 
 This is a Job Portal backend project built using Python.
 
-## Features (Planned)
-- User registration
-- Login system
-- Job posting
-- Job search
-- Apply for jobs
+## Features
+- Add job
+- List jobs
+- Delete jobs
+- Persistent storage using file system
+
+## How to Run
+1. Clone the repository
+2. Run `python job_portal.py`
 
 ## Tech Stack
 - Python
