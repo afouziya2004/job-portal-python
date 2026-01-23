@@ -1,27 +1,26 @@
-# Job Portal – Python
-
-This is a Job Portal backend project built using Python.
-
-## Features
-- Add job
-- List jobs
-- Delete jobs
-- Persistent storage using file system
-
-## How to Run
-1. Clone the repository
-2. Run `python job_portal.py`
+## Project Overview
+A RESTful Job Portal backend built using Python and Flask.
+Supports CRUD operations with persistent file storage and validation.
 
 ## Tech Stack
 - Python
-- SQLite (later)
-  
-## API Endpoints
+- Flask
+- JSON
+- File-based persistence
 
+## Features
+- Add job (API)
+- List jobs (API)
+- Delete job (API)
+- Input validation
+- Error handling
+- Persistent storage
+
+## API Endpoints
 GET /jobs  
 POST /jobs  
 DELETE /jobs/<id>
 
-## Run Server
-pip install flask
+## How to Run
+pip install flask  
 python app.py
